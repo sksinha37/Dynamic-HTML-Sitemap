@@ -3,10 +3,9 @@ Contributors: Suraj Kumar Sinha
 Tags: sitemap, dynamic sitemap, HTML sitemap, WordPress plugin
 Requires at least: 5.0
 Tested up to: 6.7.1
-Stable tag: 1.0
+Stable tag: 1.2
 License: GPL-2.0-or-later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Donate link: https://techarchers.in/donate
 
 Dynamic HTML Sitemap provides a flexible and customizable HTML sitemap for WordPress websites, including pages, posts, and categories.
 
@@ -19,7 +18,7 @@ Dynamic HTML Sitemap generates a customizable HTML sitemap for your WordPress we
 3. Use the `[dynamic_sitemap]` shortcode to display your sitemap.
 
 == Changelog ==
-= 1.0 =
+= 1.2 =
 * Initial release.
 
 == Frequently Asked Questions ==
