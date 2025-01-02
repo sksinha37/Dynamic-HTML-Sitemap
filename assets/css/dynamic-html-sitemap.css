@@ -1,0 +1,122 @@
+/* General container styling */
+.sitemap-container {
+    margin: 30px auto;
+    padding: 40px;
+    font-family: 'Poppins', Arial, sans-serif; /* Modern, clean font */
+    background: linear-gradient(145deg, #e2e8f0, #f7fafc); /* Soft gradient background */
+    border-radius: 12px; /* Rounded corners for a modern touch */
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1); /* Soft shadow to add depth */
+    color: #333;
+    max-width: 1200px;
+    box-sizing: border-box;
+    transition: all 0.3s ease-in-out; /* Smooth transition for container */
+}
+
+/* Sitemap title */
+.sitemap-title {
+    text-align: center;
+    font-size: 2.4rem; /* Slightly larger font size */
+    color: #2d3748;
+    font-weight: 600; /* Slightly bolder for emphasis */
+    margin-bottom: 25px;
+    letter-spacing: 1px; /* Adding slight letter-spacing for elegance */
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.15); /* Soft shadow for title */
+    transition: all 0.3s ease;
+}
+
+/* Section styling */
+.sitemap-section {
+    margin-bottom: 40px; /* Increased spacing between sections */
+}
+
+/* Headings */
+.sitemap-section h2 {
+    font-size: 1.8rem; /* Slightly larger than before for better emphasis */
+    color: #2d3748;
+    margin-bottom: 15px;
+    font-weight: 500;
+    border-bottom: 2px solid #3182ce; /* Light blue border for accent */
+    padding-bottom: 8px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 12px; /* Added gap between icon and text */
+}
+
+/* List styling */
+.sitemap-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px; /* Wider gap for better layout */
+}
+
+/* List items */
+.sitemap-list li {
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 10px; /* Softer edges */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05); /* Light shadow for depth */
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-align: center; /* Center text for balance */
+    transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.3s ease;
+}
+
+/* Hover effect for list items */
+.sitemap-list li:hover {
+    transform: translateY(-5px); /* Slight lift effect */
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1); /* Larger shadow for interaction */
+    background-color: #f3f4f6; /* Subtle background change on hover */
+}
+
+/* Links styling */
+.sitemap-list a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #3182ce; /* Soft blue for links */
+    font-weight: 600;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+/* Hover effect on links */
+.sitemap-list a:hover {
+    color: #2b6cb0; /* Darker blue on hover */
+    transform: translateX(3px); /* Slight slide to the right */
+}
+
+/* Mobile responsiveness */
+@media (max-width: 600px) {
+    .sitemap-title {
+        font-size: 2rem; /* Slightly smaller title */
+    }
+
+    .sitemap-section h2 {
+        font-size: 1.6rem; /* Adjust heading size for mobile */
+    }
+
+    .sitemap-list {
+        grid-template-columns: 1fr; /* Single column on mobile */
+    }
+
+    .sitemap-list li {
+        font-size: 1rem; /* Smaller font size for mobile */
+    }
+}
+
+/* Medium screen adjustments (tablets and larger phones) */
+@media (max-width: 1024px) {
+    .sitemap-list {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Flexible grid for tablets */
+    }
+
+    .sitemap-title {
+        font-size: 2.2rem; /* Larger title for medium screens */
+    }
+
+    .sitemap-section h2 {
+        font-size: 1.7rem; /* Adjust section titles */
+    }
+}
