@@ -1,9 +1,9 @@
 <?php
 /*
 Plugin Name: Dynamic HTML Sitemap
-Plugin URI: https://techarchers.in/dynamic-html-sitemap
+Plugin URI: https://github.com/sksinha37/Dynamic-HTML-Sitemap/
 Description: A comprehensive WordPress plugin that generates a dynamic, customizable HTML sitemap, including pages, posts, custom post types, and categories, with easy exclusion options from the frontend.
-Version: 1.0
+Version: 1.2
 Author: Suraj Kumar Sinha
 Author URI: https://techarchers.in
 License: GPL-2.0-or-later
